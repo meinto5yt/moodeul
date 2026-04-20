@@ -1,0 +1,61 @@
+.big{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center !important;
+}
+.container{
+width: 85%;
+height: 75vh;
+background-color: rgba(225, 225, 225, 0.2);
+border: 2px solid rgb(225, 225, 225);
+border-radius: 25px;
+padding-top: 15px;
+position: relative;
+overflow: auto;
+}
+::-webkit-scrollbar{
+ background:transparent ;
+ width: 0;
+}
+.artiList{
+width: 30%;
+height: 100%;
+border-left: 2px solid #fff;
+position: absolute;
+right: 0px;
+display: flex;
+justify-content: center;
+overflow: auto;
+flex-wrap: wrap;
+text-align: center;
+
+}
+.artiList a{margin-bottom: 15px;text-decoration: none;}
+.artiClick{
+    width: 80%;
+    color: #fff;
+    font-weight: 700;
+    font-size: large;
+    transition: 0.25s;
+    border: 2px solid #391928;
+    border-radius: 25px;
+}
+.artiClick:hover{
+    background-color: #391928;
+}
+.artiAp{
+    width: 65%;
+    position: absolute;
+    left: 2.5%;
+}
+.artiAp div{
+    width: 100%;
+    color: #fff;
+    font-weight: 600;
+    font-size: larger;
+}
+
